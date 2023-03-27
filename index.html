@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper" style="background-color: #8ef6e4">
+        <a href="#" data-target="slide-out" class="sidenav-trigger black-text"
+          ><i class="material-icons medium">menu_open</i></a
+        >
+        <a href="#" class="brand-logo center black-text">
+          Portfolio Edgard A. Pazos I.
+          <i class="fa-regular fa-folder-open"></i>
+        </a>
+      </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="./images/watercolor-4116932_1280.png" />
+          </div>
+          <a href="#user"><img class="circle" src="./images/I.jpg" /></a>
+          <a href="#name"
+            ><span class="black-text name">Edgard A. Pazos I.</span></a
+          >
+          <a href="#email"
+            ><span class="black-text email">allan.pazos@uabc.edu.mx</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#!"
+          ><i
+            class="fa-brands fa-linkedin"
+            style="font-size: 20px; color: blue"
+          ></i
+          >LinkedIn</a
+        >
+      </li>
+      <li>
+        <a href="#!"
+          ><i
+            class="fa-brands fa-github"
+            style="font-size: 20px; color: black"
+          ></i
+          >GitHub</a
+        >
+      </li>
+      <li><div class="divider"></div></li>
+      <li><a class="header black-text">About Me</a></li>
+      <li><p class="flow-text center">Third Link With Waves</p></li>
+    </ul>
+    <div class="container"></div>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./images/web-design-3411373_1280.jpg" />
+      </div>
+    </div>
+    <div class="section" style="background-color: #9896f1">
+      <div class="row container">
+        <h2 class="header center">
+          <i class="fa-solid fa-laptop-code"></i>
+          I'm a Full Stack Developer also a Biotech Engineer
+          <i class="fa-solid fa-code"></i>
+        </h2>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./images/website-1624028_1280.png" />
+      </div>
+    </div>
+
+    <div class="carousel" style="background-color: #d59bf6">
+      <h2 class="header center" style="padding-bottom: 50px">Projects</h2>
+      <a class="carousel-item" href="#one!"
+        ><img src="./images/website-1624028_1280.png"
+      /></a>
+      <a class="carousel-item" href="#two!"
+        ><img src="./images/web-design-3411373_1280.jpg"
+      /></a>
+      <a class="carousel-item" href="#three!"
+        ><img src="./images/website-1624028_1280.png"
+      /></a>
+      <a class="carousel-item" href="#four!"
+        ><img src="./images/web-design-3411373_1280.jpg"
+      /></a>
+      <a class="carousel-item" href="#five!"
+        ><img src="./images/website-1624028_1280.png"
+      /></a>
+    </div>
+
+    <div class="row" style="background-color: #8ef6e4">
+      <h2 class="header center" style="padding-bottom: 50px">Certificates</h2>
+      <div class="container col s3">
+        <img class="materialboxed" width="300px" height="200px" src="./images/cert1.jpeg" />
+      </div>
+
+      <div class="container col s3">
+        <img class="materialboxed" width="300px" height="200px" src="./images/cert2.png" />
+      </div>
+
+      <div class="container col s3">
+        <img class="materialboxed" width="300px" height="200px" src="./images/cert3.jpeg" />
+      </div>
+
+      <div class="container col s3">
+        <img class="materialboxed"
+          width="300px" height="200px"
+          src="./images/1f89271d13da0d9158361fa5a5cbf1cf6d56a1beb14ac86492b142332e96efc0_page-0001.jpg"
+        />
+      </div>
+    </div>
+
+    <ul class="collapsible">
+      <h2 class="header center">Technologies</h2>
+      <li>
+        <div class="collapsible-header" style="background-color: #9896f1">
+          <i class="fa-solid fa-laptop-code"></i>Front-End
+        </div>
+        <div class="collapsible-body">
+          <span class="flow-text" style="font-style: italic"
+            >JavaScript, TypeScript, React, Redux, HTML & CSS, Material UI,
+            Tailwind, MaterializeCSS</span
+          >
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header" style="background-color: #d59bf6">
+          <i class="fa-solid fa-server"></i>Back-End
+        </div>
+        <div class="collapsible-body">
+          <span class="flow-text" style="font-style: italic"
+            >Express, Node, GraphQL, Sequelize, Mongoose</span
+          >
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header" style="background-color: #edb1f1">
+          <i class="fa-solid fa-database"></i>DataBases
+        </div>
+        <div class="collapsible-body">
+          <span class="flow-text" style="font-style: italic"
+            >PostgreSQL, MongoDB, GraphCMS</span
+          >
+        </div>
+      </li>
+    </ul>
+
+    <script
+      src="https://kit.fontawesome.com/f2e4f71b18.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
