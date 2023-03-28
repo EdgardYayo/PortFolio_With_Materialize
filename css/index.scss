@@ -36,6 +36,21 @@
     }
 }
 
+.imgProject {
+    border: 3px solid #8ef6e4;
+    box-shadow: 1px 1px 10px black;
+    transition: all ease-in-out 250ms;
+}
+
+.imgProject:hover {
+    transform: scale(1.8);
+    filter: contrast(120%);
+}
+
+.materialboxed {
+    border: 3px solid #d59bf6;
+}
+
  @media (max-width: 1200px) {
      #certs {
         div{
