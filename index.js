@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     M.Carousel.init(elems, {
-        indicators: true,
-        dist: 10,
-        numVisible: 3,
-        shift: 20
+      indicators: true,
+      dist: 10,
+      numVisible: 3,
+      shift: 20
     });
   });
-
+  
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.collapsible');
     M.Collapsible.init(elems);
