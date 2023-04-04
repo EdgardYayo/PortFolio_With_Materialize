@@ -16,6 +16,9 @@
 
 
 #certs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(18rem, 1fr));
+    gap: 1rem;
     div {
         margin-block-end: 20px;
         img {
@@ -53,6 +56,7 @@
 
  @media (max-width: 1200px) {
      #certs {
+        grid-template-columns: repeat(2, minmax(15rem, 1fr));
         div{
             img {
                 width: 200px;

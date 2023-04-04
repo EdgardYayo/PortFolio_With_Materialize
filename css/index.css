@@ -10,6 +10,11 @@
   padding: 10px;
 }
 
+#certs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(18rem, 1fr));
+  gap: 1rem;
+}
 #certs div {
   -webkit-margin-after: 20px;
           margin-block-end: 20px;
@@ -42,6 +47,9 @@
 }
 
 @media (max-width: 1200px) {
+  #certs {
+    grid-template-columns: repeat(2, minmax(15rem, 1fr));
+  }
   #certs div img {
     width: 200px;
     height: 150px;
